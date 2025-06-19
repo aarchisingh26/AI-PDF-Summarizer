@@ -3,7 +3,7 @@ from pdf_utils import extract_text_from_pdf
 from summarizer import summarize_with_t5, extract_bullet_points
 
 st.set_page_config(page_title="PDF Analyzer + Summary", layout="wide")
-st.title("📄 PDF Analyzer + Free AI Summary Tool")
+st.title("PDF Analyzer + AI Summary Tool")
 
 uploaded_file = st.file_uploader("Upload a PDF to summarize", type="pdf")
 
